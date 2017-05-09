@@ -29,6 +29,8 @@
  * @returns undefined
  */
 
+import 'babel-core/register';
+
 import CALL_API from './CALL_API';
 import { isRSAA, validateRSAA, isValidRSAA } from './validation';
 import { InvalidRSAA, InternalError, RequestError, ApiError } from './errors';
