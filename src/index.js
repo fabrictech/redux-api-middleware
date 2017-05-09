@@ -30,6 +30,7 @@
  */
 
 import 'babel-core/register';
+import 'babel-polyfill';
 
 import CALL_API from './CALL_API';
 import { isRSAA, validateRSAA, isValidRSAA } from './validation';
